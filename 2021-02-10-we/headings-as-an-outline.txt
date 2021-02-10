@@ -1,0 +1,21 @@
+h1. Apple Macintosh 128K
+  h2. Processor and Memory
+  h2. Storage
+  h2. Software
+    h3. Operating System
+    h3. Applications
+  h2. Dimensions
+  h2. Future Models
+    h3. 512k
+      h4. Version A (512k)
+      h4. Version B (512ke)
+    h3. Plus
+    h3. SE
+
+
+Note: This is an example of how headings should be used -- to create an outline of your document. Headings should be used to establish hierarchy.
+
+I realize this example is not identical to the content in the practice set. Rather than the ordered list of "Future Models," this example demonstrates how we'd use headings to create deeper subsections within the "Future Models" section.
+
+Don't use headings because you like how they look. Don't skip headings (i.e. jump from h1 to h3).
+Don't use headlines in numerical order (i.e. h1, h2, h3, h4...)
