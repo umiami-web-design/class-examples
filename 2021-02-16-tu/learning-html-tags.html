@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Learning HTML Tags</title>
+  </head>
+
+  <body>
+
+    <!-- Remember to ... -->
+
+    <!-- template begins here -->
+
+    <table border="1">
+      <caption>Languages in the U.S.</caption>
+      <tr>
+        <th>Language</th>
+        <th><abbr title="percentage">Pct.</abbr></th>
+      </tr>
+
+      <tr>
+        <td>English</td>
+        <td rowspan="2">78.2</td>
+      </tr>
+
+      <tr>
+        <td>British English</td>
+      </tr>
+
+      <tr>
+        <td>Spanish</td>
+        <td>13.4</td>
+      </tr>
+
+      <tr>
+        <td>Chinese</td>
+        <td>1.1</td>
+      </tr>
+
+      <tr>
+        <td>other</td>
+        <td>7.3</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">* 2017 est.</td>
+      </tr>
+    </table>
+
+    <!--
+      English only 78.2%, Spanish 13.4%, Chinese 1.1%, other 7.3% (2017 est.)
+    -->
+
+    <figure>
+      <img src="us-map.jpg" alt="A map of the United States" />
+      <figcaption>A map of the United States (Source: CIA World Factbook)</figcaption>
+    </figure>
+
+    <!-- template for map figures -->
+    <!--
+    <figure>
+      <img src="XXX-map.jpg" alt="A map of the XXX" />
+      <figcaption>A map of the XXX (Source: CIA World Factbook)</figcaption>
+    </figure>
+    -->
+
+    <pre>
+def hello
+  puts "Hello, world"
+end
+    </pre>
+
+    <!-- Remember: the u tag is bad because the "visual" of underlines conveys
+        "this text is a link." -->
+    <p>Is this a <u>link</u> or is this <a href="http://miami.edu">link</a>?</p>
+
+
+    <!-- div is a generic block element; span is a generic inline element ...
+    ... don't use these now. We're all about descriptive tags, and these
+    are really only used for the purpose of styling when no other descriptive
+    option exists! -->
+
+    <div></div>
+    <span></span>
+
+  </body>
+</html>
