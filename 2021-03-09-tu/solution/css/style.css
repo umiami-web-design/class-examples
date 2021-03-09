@@ -1,0 +1,38 @@
+/* This is a CSS comment. */
+
+body {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #222; /* #000000 (black) to #FFFFFF (white) */
+}
+
+h1 {
+  font-size: 72px;
+}
+
+p,
+li,
+td {
+  color: rgb(24,165,85);
+}
+
+nav li {
+  list-style-type: square;
+}
+
+footer p {
+  color: #222;
+}
+
+section {
+  background-color: #eee;
+}
+
+#intro {
+  background-color: rgba(254,240,53,0.5);
+}
+
+.highlight {
+  background-color: rgb(254,240,53);
+  font-weight: bold;
+  font-style: italic;
+}
