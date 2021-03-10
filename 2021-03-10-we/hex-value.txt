@@ -1,0 +1,11 @@
+R    G    B  <-- 0 to 255
+F4   73   21  <-- Hurricanes orange in "hex"
+
+Decimal - Base 10 -- 0 through 9
+Hexidecimal - Base 16 - 0 through F
+
+Black - #000000  -> #000
+Darkest of gray  -> #111
+
+Very, very light gray  ->  #EEE
+White - #FFFFFF  -> #FFF
