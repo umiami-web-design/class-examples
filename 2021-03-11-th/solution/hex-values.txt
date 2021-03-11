@@ -1,0 +1,18 @@
+Red  Green  Blue  <-- 0 to 255
+234  32     45
+
+Decimal - Base 10 -- 0 to 9
+Hexidecimal - Base 16 - 0 to 9, A to F
+
+R   G   B
+F4  73  21
+
+
+00  00  00  <--- black
+11  11  11  <--- very dark gray!
+
+EE  EE  EE  <--- very light gray!
+FF  FF  FF  <--- white
+
+
+#000
