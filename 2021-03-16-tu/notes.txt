@@ -1,0 +1,40 @@
+UNDERSTANDING CHILDREN & DESCENDANTS:
+
+(section) #geography article figure figcaption abbr (5)
+
+(section) #geography article table tr th abbr (6)
+
+
+
+CAN CSS BE NESTED? (No.)
+NOTE: We are not using SASS in this course. This is just for reference related to the discussion in class.
+
+- SASS supports nesting; CSS does not.
+
+/* SASS version: */
+
+#geography {
+  background-color: blue;
+
+  abbr {
+    font-weight: bold;
+  }
+}
+
+/* How SASS translates to CSS: */
+#geography {
+  background-color: blue;
+}
+
+#geography abbr {
+  background-color: blue;
+  font-weight: bold;
+}
+
+
+CSS COLORS
+- writing a color name <-- don't use this; too easy, not flexible!
+- hex value
+- rgb value
+- rgba value (introduces alpha transparency)
+- hsl value

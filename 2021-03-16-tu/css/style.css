@@ -1,0 +1,19 @@
+/* This is a CSS comment. */
+
+body {
+  color: rgba(255,105,180,0.3);
+}
+
+#geography abbr {
+  font-weight: bold;
+  color: red;
+}
+
+article > h3 {
+  margin: 0;
+}
+
+article > h3 + p,
+article > h3 + ul {
+  margin: 0;
+}
