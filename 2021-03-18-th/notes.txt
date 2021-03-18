@@ -1,0 +1,19 @@
+Windows    Mac
+Arial      Helvetica
+Georgia    Times New Roman
+
+
+section <-- parent
+  h2        <-- children
+  article
+  article
+  article
+
+
+
+#geography article figure figcaption abbr (5)
+
+#geography article table tr th abbr (6)
+
+
+#geography > abbr

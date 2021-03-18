@@ -1,0 +1,27 @@
+/* This is a CSS comment. */
+
+body {
+  color: #222;
+  font-family: "Proxima Nova", "Avenir", sans-serif;
+}
+
+#geography abbr {
+  color: red;
+  font-weight: bold;
+}
+
+#geography h3 {
+  color: green;
+}
+
+section {
+  background-color: #eee;
+}
+
+#intro {
+  background-color: rgb(254,240,53);
+}
+
+.first {
+  font-weight: bold;
+}
