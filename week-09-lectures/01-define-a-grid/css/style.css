@@ -1,0 +1,22 @@
+
+
+
+
+
+
+/*
+  These styles are only used for styling the boxes we see on screen!
+	They have no impact on how CSS grid works!
+*/
+
+.css-grid-yay div {
+	border: 1px solid rgb(12,71,162);
+	border-radius: 3px;
+	background-color: rgba(12,71,162,0.8);
+	padding: 0.2rem;
+	color: #fff;
+}
+
+.css-grid-yay div:nth-of-type(2n) {
+	background-color: rgba(12,71,162,0.6);
+}

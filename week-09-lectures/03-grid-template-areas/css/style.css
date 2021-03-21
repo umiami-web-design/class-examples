@@ -1,0 +1,41 @@
+.css-grid-yay {
+
+}
+
+header {
+
+}
+
+aside {
+
+}
+
+main {
+
+}
+
+footer {
+
+}
+
+
+
+
+/*
+  These styles are only used for styling the boxes we see on screen!
+	They have no impact on how CSS grid works!
+*/
+
+.css-grid-yay header,
+.css-grid-yay main {
+	border: 1px solid rgb(12,71,162);
+	border-radius: 3px;
+	background-color: rgba(12,71,162,0.8);
+	padding: 0.2rem;
+	color: #fff;
+}
+
+.css-grid-yay aside,
+.css-grid-yay footer {
+	background-color: rgba(12,71,162,0.6);
+}
