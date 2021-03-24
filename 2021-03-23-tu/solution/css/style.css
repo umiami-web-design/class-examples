@@ -1,0 +1,46 @@
+/* 04-nav-bar styling */
+
+/*
+  padding
+  border
+  margin
+*/
+
+/* nav {
+  background-color: #ccc;
+  box-shadow: 5px 5px 2px blue;
+} */
+
+nav ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  /* background-color: #ccc; */
+  /* box-shadow: 0 10px red;  /* x, y, blur, color */
+}
+
+nav a { /* off state */
+  display: inline-block;
+  background-color: #ccc;
+  padding: 10px;
+  border-bottom: 3px solid white;
+}
+
+nav a:hover { /* on state */
+  background-color: #222;
+  color: #fff;
+  border-bottom: 3px solid red;
+}
+
+/* Link State Selectors ...
+
+  a           <- default
+  a:link      <- unvisited links
+  a:visited   <- visited links
+  a:hover     <- a user puts his/her mouse on the text
+  a:active    <- a user clicks on on the text
+*/
