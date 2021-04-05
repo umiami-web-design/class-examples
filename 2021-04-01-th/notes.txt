@@ -1,0 +1,32 @@
+margin-top
+margin-right
+margin-bottom
+margin-left
+
+margin: T R B L
+
+margin: 10px 20px 30px 40px;
+margin: X Y Z; <-- very unique
+
+margin: 10px 20px 10px 20px;
+margin: 10px 20px;
+
+margin: 10px 10px 10px 10px;
+margin: 10px;
+
+
+margin: 0;
+
+margin: 0 auto;
+
+
+width: 500px;
+margin: 0 auto;
+
+
+
+2000px  <-- browser window
+ 500px  <-- box with content
+
+2000px - 500px = 1500px
+1500px / 2 = 750px
